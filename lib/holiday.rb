@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
            x.capitalize!
          end
          capName = capName.join(" ")
-         puts " #{capName}: #{supply.join(", ")}"
+         puts "   #{capName}: #{supply.join(", ")}"
 
        end
      end
